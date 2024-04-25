@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.img-sec{
+    margin-top:100px ;
+}
+.inputs input{
+    margin-top: 25px;
+    height: 55px;
+    width: 40%;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 30px;
+    outline: none;
+    font-size: 25px;
+}
+.inputs input:hover{
+    box-shadow: 2px 2px 3px rgb(192, 192, 192);
+}
+.btn{
+    margin: 50px;
+}
+.btn button{
+    padding: 20px;
+    background-color: rgb(242, 241, 241);
+    border: none;
+    width: 12%;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn button:hover{
+    box-shadow: 2px 2px 3px rgb(192, 192, 192);
+}
+.search-container {
+    position: relative;
+    width: 40%;
+}
+
+.search-icon {
+    position: absolute;
+    top: 66%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa; /* Change color as needed */
+}
+
+.search-input {
+    padding-left: 30px; /* Adjust padding to make space for the icon */
+    width: calc(100% - 40px); /* Adjust width to accommodate the icon and padding */
+    margin-top: 25px;
+
+    height: 55px;
+    /* width: 40%; */
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 30px;
+    outline: none;
+    font-size: 25px;
+}
